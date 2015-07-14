@@ -13,6 +13,12 @@ if [[ ! -d environments/$ENV_NAME ]]; then
     exit 1
 fi
 
+# Make sure a .env file exists.
+# If it doesn't, create it.
+if [[ ! -f environments/$ENV_NAME/.env ]]; then
+    cp environments/$ENV_NAME/.env.example environments/$ENV_NAME/.env
+fi
+
 # Make sure the pyvenv directory exists.
 # If it doesn't, create it.
 if [[ ! -d environments/$ENV_NAME/pyvenv ]]; then
