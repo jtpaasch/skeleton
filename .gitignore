@@ -10,6 +10,9 @@ __pychache__
 # Python version
 .python-version
 
+# Sqlite3 files
+db.sqlite3
+
 # Coverage reports
 .coverage
 
