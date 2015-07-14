@@ -3,6 +3,9 @@ SKELETON
 
 A skeleton for Django projects.
 
+* Python >= 3.4
+* Django >= 1.8
+
 To generate the documentation, run this command:
 
     $ ./bin/docs.sh
