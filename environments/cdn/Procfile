@@ -1,0 +1,6 @@
+
+# The webserver.
+webserver: python manage.py runserver_plus
+
+# The CDN.
+cdn: cd dist && python -m http.server 8010

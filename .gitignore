@@ -1,0 +1,23 @@
+
+# Python bytecode
+*.pyc
+__pychache__
+
+# Scratch files
+*~
+.swp
+
+# Python version
+.python-version
+
+# Coverage reports
+.coverage
+
+# Environment variable definitions
+.env
+
+# Directories to ignore
+dist
+pyvenv
+docs/build
+
