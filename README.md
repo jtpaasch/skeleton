@@ -1,3 +1,10 @@
-# SKELETON
+SKELETON
+========
 
-The skeleton of a django project.
+A skeleton for Django projects.
+
+
+To generate the documentation, run this command:
+
+    $ ./bin/docs.sh
+
