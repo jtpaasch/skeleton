@@ -33,7 +33,7 @@ pylint-django==0.6
 pylint-plugin-utils==0.2.3
 pyroma==1.8.2
 pytz==2015.4
-PyYAML==3.11
+PyYAML==4.2b1
 requirements-detector==0.4
 selenium==2.46.0
 setoptconf==0.2.0
